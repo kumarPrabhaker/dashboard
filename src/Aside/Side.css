@@ -1,0 +1,132 @@
+.dropdown-container {
+  overflow: hidden;
+  transition: height 0.3s ease;
+  height: 35px;
+  /* Adjust this to the default height of your dropdown */
+}
+
+.dropdown-container.active {
+  height: auto;
+  /* This will expand the dropdown to fit its content */
+}
+
+.dropdown-header {
+  cursor: pointer;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-container.active .dropdown-content {
+  display: block;
+}
+
+.menu-item {
+  margin-top: 50px;
+}
+
+.side {
+
+  background-color: black;
+}
+
+button {
+  width: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+}
+
+.shift-down {
+  margin-top: 100px;
+}
+
+.dropdownBoxDesign {
+  background-color: transparent;
+  color: pink;
+  margin-left: -4px;
+  width: 176px;
+  height: 35px;
+  border-radius: 4px;
+  border-color: pink;
+}
+
+
+.LogOut {
+  background-color: black;
+  margin-top: 250px;
+  width: 170px;
+  position: relative;
+  bottom: -9px;
+}
+
+.menu {
+  padding: 0;
+  border: 1px solid pink;
+  border-radius: 4px;
+  width: 171px;
+  height: 31px;
+  padding: 3px;
+  text-align: left;
+  margin-left: -1px;
+  margin-bottom: 15px;
+}
+
+.menu>li {
+  position: relative;
+  cursor: pointer;
+  text-align: start;
+  background-color: transparent;
+}
+
+.hide-sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: transparent;
+}
+
+.display-sub-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: -27px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.menu li ul li:hover {
+  color: pink;
+  border: 1px solid pink;
+}
+
+
+.sub-menu li {
+  text-align: left;
+}
+
+.shift-up {
+  margin-top: 0px;
+
+}
+
+.shift-down {
+  margin-top: 100px;
+}
+
+.menu-item {
+  margin-top: 50px;
+}
+.linkstyle{
+  text-decoration: none;
+  color: white;
+}
+.linkstyle:hover{
+  color:pink;
+}

@@ -1,0 +1,120 @@
+.super {
+    display: flex;
+    margin: -24px;
+    font-size: 19px;
+}
+
+.sub-header {
+    display: flex;
+    margin-top: 29px;
+}
+
+.sub-header-under {
+    border: 1px solid rgb(228, 61, 228);
+    border-radius: 3px;
+    color: pink;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.sub-header-under:hover {
+    background-color: rgb(228, 61, 228);
+    color: white;
+}
+
+.sub-division {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 772px;
+}
+
+.hero2 {
+    width: 174%;
+    height: 40%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: purple;
+}
+
+.sub-main {
+    display: flex;
+    width: 348px;
+    justify-content: space-between;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.sub-Ends {
+    border: 2px solid purple;
+    margin-top: 5px;
+}
+
+/* main */
+.main {
+    width: 100%;
+    padding: 6px;
+    display: flex;
+}
+
+.main-under {
+    font-size: 10px;
+    color: purple;
+}
+
+.main-heaader {
+    border: 1px solid purple;
+    border-radius: 3px;
+    margin: 9px;
+    padding: 7px;
+    height: 62px;
+}
+
+.main-heaader:hover {
+    background-color: rgb(228, 61, 228);
+    color: white;
+}
+
+.event-side {
+    width: 60%;
+    top: 230px;
+    left: 434px;
+    width: 80%;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+table,tr{
+    margin-left: 30px;
+}
+
+.event-table1 th,
+.event-table1 td {
+    padding: 8px;
+}
+
+.header1 {
+    background-color: rgb(246, 17, 246);
+    color: white;
+}
+.main-sub{
+    width: 40%;
+    border: 2px solid purple;
+    border-radius: 3px;
+    
+}
+.event-table1{
+    margin-left: 94px;
+    width: 394px;
+}
+.main-header-under{
+    font-weight: 5px;
+}

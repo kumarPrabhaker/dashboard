@@ -1,0 +1,42 @@
+
+.component{
+  background-image: url('../public/vecteezy_gradient-abstract-background-purple-blue-and-black_32313689.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  border: 2px solid grey;
+  
+}
+.circle {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  background-image: url('../public/human.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.aside{
+  display: flex;
+  height: 89vh;
+  width: 100vh;
+  
+}
+.aside_left{
+  margin-left: 25px;
+  width: 234px;
+  border: 1px solid #c08b94;
+  height: 529px;
+  border-radius: 10px;
+}
+.aside_right{
+  border: 1px solid #c08b94;
+  margin: 20px;
+}
+.border_design{
+  position: absolute;
+  top: 67px;
+  left: 263px;
+  padding: 41px ;
+  width: 872px;
+}
